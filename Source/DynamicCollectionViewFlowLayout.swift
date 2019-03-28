@@ -30,7 +30,7 @@ open class DynamicCollectionViewFlowLayout: UICollectionViewFlowLayout {
     // MARK: - Properties definition 
     
     open var dynamicAnimator: UIDynamicAnimator?
-    open var itemsAligment = UIControlContentHorizontalAlignment.center
+    open var itemsAligment = UIControl.ContentHorizontalAlignment.center
 
     open lazy var collisionBehavior: UICollisionBehavior? = {
         let collision = UICollisionBehavior(items: [])
@@ -157,6 +157,10 @@ open class DynamicCollectionViewFlowLayout: UICollectionViewFlowLayout {
             translationX = 0.0
         case .right:
             translationX = (collectionViewContentWidth - frame.size.width)
+        case .leading:
+            translationX = 0.0
+        case .trailing:
+            translationX = 0.0
         }
 
         frame.origin.x = translationX
