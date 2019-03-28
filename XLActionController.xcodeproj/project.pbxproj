@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28473B871C109E4900A8105F /* XLActionControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28473B851C109E3F00A8105F /* XLActionControllerTests.swift */; };
 		28B3B8411BFA668F007337A2 /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B8361BFA668F007337A2 /* ActionCell.swift */; };
 		28B3B8421BFA668F007337A2 /* ActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B3B8371BFA668F007337A2 /* ActionCell.xib */; };
 		28B3B8431BFA668F007337A2 /* ActionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B8381BFA668F007337A2 /* ActionController.swift */; };
@@ -15,21 +14,9 @@
 		28B3B8451BFA668F007337A2 /* DynamicCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B83A1BFA668F007337A2 /* DynamicCollectionViewFlowLayout.swift */; };
 		28B3B8471BFA668F007337A2 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B3B83C1BFA668F007337A2 /* Action.swift */; };
 		28B3B84C1BFA6E39007337A2 /* XLActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B3B84B1BFA6E39007337A2 /* XLActionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28E191721BFA618F00066B1C /* XLActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E191671BFA618E00066B1C /* XLActionController.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		28E191731BFA618F00066B1C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 28E1915E1BFA618E00066B1C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28E191661BFA618E00066B1C;
-			remoteInfo = XLActionController;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		28473B851C109E3F00A8105F /* XLActionControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XLActionControllerTests.swift; path = Tests/XLActionControllerTests.swift; sourceTree = SOURCE_ROOT; };
 		28B3B8361BFA668F007337A2 /* ActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionCell.swift; path = Source/ActionCell.swift; sourceTree = SOURCE_ROOT; };
 		28B3B8371BFA668F007337A2 /* ActionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ActionCell.xib; path = Source/ActionCell.xib; sourceTree = SOURCE_ROOT; };
 		28B3B8381BFA668F007337A2 /* ActionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionController.swift; path = Source/ActionController.swift; sourceTree = SOURCE_ROOT; };
@@ -39,8 +26,6 @@
 		28B3B84B1BFA6E39007337A2 /* XLActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLActionController.h; path = Source/XLActionController.h; sourceTree = SOURCE_ROOT; };
 		28E191671BFA618E00066B1C /* XLActionController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLActionController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E1916C1BFA618F00066B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
-		28E191711BFA618F00066B1C /* XLActionControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLActionControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		28E191781BFA618F00066B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,14 +36,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28E1916E1BFA618F00066B1C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28E191721BFA618F00066B1C /* XLActionController.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				28E191691BFA618E00066B1C /* Source */,
-				28E191751BFA618F00066B1C /* Tests */,
 				28E191681BFA618E00066B1C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				28E191671BFA618E00066B1C /* XLActionController.framework */,
-				28E191711BFA618F00066B1C /* XLActionControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,16 +69,6 @@
 			);
 			name = Source;
 			path = XLActionController;
-			sourceTree = "<group>";
-		};
-		28E191751BFA618F00066B1C /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				28473B851C109E3F00A8105F /* XLActionControllerTests.swift */,
-				28E191781BFA618F00066B1C /* Info.plist */,
-			);
-			name = Tests;
-			path = XLActionControllerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,24 +103,6 @@
 			productReference = 28E191671BFA618E00066B1C /* XLActionController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		28E191701BFA618F00066B1C /* XLActionControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28E1917E1BFA618F00066B1C /* Build configuration list for PBXNativeTarget "XLActionControllerTests" */;
-			buildPhases = (
-				28E1916D1BFA618F00066B1C /* Sources */,
-				28E1916E1BFA618F00066B1C /* Frameworks */,
-				28E1916F1BFA618F00066B1C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				28E191741BFA618F00066B1C /* PBXTargetDependency */,
-			);
-			name = XLActionControllerTests;
-			productName = XLActionControllerTests;
-			productReference = 28E191711BFA618F00066B1C /* XLActionControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,11 +115,7 @@
 				TargetAttributes = {
 					28E191661BFA618E00066B1C = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 1010;
-					};
-					28E191701BFA618F00066B1C = {
-						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -181,6 +124,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 28E1915D1BFA618E00066B1C;
@@ -189,7 +133,6 @@
 			projectRoot = "";
 			targets = (
 				28E191661BFA618E00066B1C /* XLActionController */,
-				28E191701BFA618F00066B1C /* XLActionControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,13 +143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B3B8421BFA668F007337A2 /* ActionCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28E1916F1BFA618F00066B1C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +161,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28E1916D1BFA618F00066B1C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28473B871C109E4900A8105F /* XLActionControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		28E191741BFA618F00066B1C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 28E191661BFA618E00066B1C /* XLActionController */;
-			targetProxy = 28E191731BFA618F00066B1C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		28E191791BFA618F00066B1C /* Debug */ = {
@@ -286,6 +206,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -326,6 +247,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -350,8 +272,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -370,34 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.XLActionController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		28E1917F1BFA618F00066B1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.XLActionControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		28E191801BFA618F00066B1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xmartlabs.XLActionControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -418,15 +312,6 @@
 			buildConfigurations = (
 				28E1917C1BFA618F00066B1C /* Debug */,
 				28E1917D1BFA618F00066B1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28E1917E1BFA618F00066B1C /* Build configuration list for PBXNativeTarget "XLActionControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28E1917F1BFA618F00066B1C /* Debug */,
-				28E191801BFA618F00066B1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
